@@ -107,11 +107,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a {
-  font-size: 2vw;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.267);
   color: #CECFD4;
   line-height: 1;
   margin-right: 8px;
