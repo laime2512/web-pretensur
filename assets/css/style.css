@@ -39,12 +39,12 @@ a {
 }
 
 a:hover {
-  color: #35e888;
-  text-decoration: none;
+  color:red;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "BankGothic Md BT", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -83,10 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 {
-  font-size: 15px;
-  margin-top: 20px;
-  color: #67676B;
+  font-size: 18px;
+  margin-top: 2px;
+  color: white;
   font-family: BankGothic Md BT;
+  text-shadow: 2px 2px 8px #171799;
 }
 
 #header h2 span {
@@ -667,8 +668,9 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
+  border-radius: 15px;
 }
 
 .services .icon-box .icon {
@@ -704,9 +706,10 @@ section .container {
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+  /*font-weight: 700;*/
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 16px;
+  padding-top: 10px;
 }
 
 .services .icon-box h4 a {
@@ -720,8 +723,10 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #E44002;
-  border-color: #E44002;
+  /*background: #A6A5AA;*/
+  background-color: rgba(83, 83, 83, 0.425);
+  border-radius: 15px;
+  border-color: #88726a;
 }
 
 .services .icon-box:hover .icon {
