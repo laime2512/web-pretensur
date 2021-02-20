@@ -1135,9 +1135,10 @@ section .container {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+  
 }
 
 .portfolio-details .portfolio-info ul {
